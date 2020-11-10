@@ -1,5 +1,5 @@
 #!/bin/bash
-vysledok=`echo -e "1\n2\n"` | perl my_program.pl`
+vysledok=`echo -e "1\n2\n" | perl my_program.pl`
 
 if [[ $vysledok -eq 3 ]]
 then
