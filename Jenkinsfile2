@@ -5,12 +5,12 @@ node('master') {
 
     dir('Lesson5') {
    	 printMessage('Running Pipeline')
-
+     
    	 stage("Testing") {
    		 sh 'python3 test_functions.py'
    	 }
 
-   	 printMessage('Pipeline Complete')
+   	 printMessage('Pipeline Complete') {
     }
 }
 
